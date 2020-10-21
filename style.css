@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "small";
+    src: url("/resources/fonts/AvenirLTStd-Book.otf"); format:"opentype";
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("/resources/fonts/AvenirLTStd-Medium.otf"); format:"opentype";
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url("/resources/fonts/AvenirNextLTPro-Heavy.otf"); format:"opentype";
+}
+
+body {
+    margin: 0;
+  }
+
+  .aside {
+    width: 319px;
+    background-color: #222222;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+    padding-top: 44px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  h1 {
+      color: #ffffff;
+      font-family: small;
+      font-weight: 100;
+  }
+
+  .bold {
+      font-family:heavy;
+  }
+
+  ul {
+    list-style-type:none;
+    padding: 0px;
+    margin-top: 108px;
+    
+  }
+
+  a {
+      padding-left: 30px;
+      
+  }
+
+  img {
+      padding-top:15px;
+      padding-right:15px;
+    
+  }
+
+  li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 259px;
+    height: 60px;
+    border-radius: 12px;
+    position: relative;
+    margin: auto;
+    font-family: medium;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #FF2288;
+    color: white;
+  }
+
+  .burger {
+      padding-left: 87px;
+      padding-right: 0px; 
+      float: right;
+      width: 26px;
+      height: 11px;
+      
+  }
+
+  li span {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    width: 259px;
+    height: 60px;
+    position: relative;
+    margin: auto;
+    font-family: medium;
+    text-align: unset;
+  }
+  
+  .more {
+      padding-top:29px;
+  }
+
+
+  
+  
