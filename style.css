@@ -74,8 +74,9 @@ body {
   }
 
   .burger {
-      padding-left: 87px;
+      padding-left: 60px;
       padding-right: 0px; 
+      padding-top:18px;
       float: right;
       width: 26px;
       height: 11px;
