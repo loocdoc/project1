@@ -17,12 +17,126 @@ body {
     margin: 0;
   }
 
+  header {
+    width: 1496px;
+    margin-left: 406px;
+    float: left;
+  }
+
+  form {
+    display: inline-block;
+  }
+
+  input {
+    width: 446px; 
+    height: 56px; 
+    padding: 20px 18px;
+    margin-top: 30px;
+    border: none;
+    display: inline-block;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    background-image: url(/resources/icons/Component\ 9\ –\ 2.svg);
+    background-repeat: no-repeat ;
+    background-position: 402px;
+    font-family: small;
+    font-size: 14px;
+      
+}
+
+.profile {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  float: right;
+  font-family: small;
+
+}
+
+.profile span {
+  color: #FF2288;
+  padding-right: 35px;
+}
+
+.profile button {
+  width: 129px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #FF2288;
+  color: #FFFFFF;
+  border: none;
+  font-family: small;
+  
+}
+
+header hr {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.middle {
+    width: 1496px;
+    margin-left: 406px;
+    float: left;   
+}
+
+.middle ul {
+  width: 1231px;
+  height: 56px;
+  margin-left: 146px;
+}
+
+.middle ul li {
+  float: left;
+  
+}
+
+.filter-list:last-child {
+  float:right;
+  background-image: url(/resources/icons/Group\ 18.svg);
+  background-repeat: no-repeat;
+  background-position-x: 30px;
+}
+
+.filter-list:last-child a {
+  width: 132px;
+  padding-left: 80px;
+  border:1px solid #D8D8D8;
+  border-radius: 12px;
+  
+}
+
+.middle ul li a {
+    display: inline;
+    color: #222222;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 12px;
+    position: relative;
+    margin: auto;
+    font-family: small;
+    padding: 20px 30px;
+    
+
+}
+
+.middle ul li a:hover {
+  background-color: #F2F2F2;
+  color:#222222;
+  opacity: 50%;
+}
+
+
+
   .aside {
     width: 319px;
     background-color: #222222;
     position: fixed;
     height: 100vh;
     overflow: auto;
+    margin-top: 11px;
     padding-top: 44px;
     padding-left: 30px;
     padding-right: 30px;
@@ -63,6 +177,7 @@ body {
     margin: auto;
     font-family: medium;
     padding-left: 30px;
+    transition: all 0.3s ease;
   }
 
   li a:hover:not(.active) {
@@ -93,7 +208,8 @@ body {
   }
   
   .more {
-      padding-top:29px;
+      padding-top:49px;
+      padding-bottom: 111px;
   }
 
   footer {
