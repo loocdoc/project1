@@ -66,7 +66,7 @@ body {
   color: #FFFFFF;
   border: none;
   font-family: small;
-  
+  cursor: pointer; 
 }
 
 header hr {
@@ -128,6 +128,49 @@ header hr {
   opacity: 50%;
 }
 
+
+.row {
+  margin-left: 521px;
+
+}
+
+.column {
+  float: left;
+  width: 289px;
+  height: 278px;
+  padding: 20px 13px;
+}
+
+
+.card {
+  height: 278px;
+  text-align: center ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  font-family: medium;
+}
+
+.card p {
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+
+
+.column button {
+  width: 289px;
+  height: 56px;
+  display: inline-block;
+  background-color: #F2F2F2;
+  font-family: small;
+  border-radius: 12px;
+  border: none;
+  margin-top: 70px;
+  margin-left: 500px;
+  cursor: pointer;
+
+}
 
 
   .aside {
