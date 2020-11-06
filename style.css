@@ -64,7 +64,19 @@ body {
   padding-bottom: 30px;
   float: right;
   font-family: small;
+  display: flex;
+  align-items: center;
 
+}
+
+.notification {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .profile span {
@@ -96,11 +108,11 @@ hr {
   margin-bottom: 0px;
 }
 
-.middle {
-    width: 1296px; 
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 40px;
+.per-middle {
+  width:1296px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -109,23 +121,33 @@ hr {
   
 }
 
-
-.filter-list:last-child {
+/*
+.last-button {
   background-image: url(/resources/icons/Group\ 18.svg);
   background-repeat: no-repeat;
   background-position-x: 30px;
   
 }
+*/
 
-.filter-list:last-child a {
-  width: 132px;
+.last-button {
+  width: 232px;
+}
+
+.last-button a {
   padding-left: 80px;
   border:1px solid #D8D8D8;
   border-radius: 12px;
+  color: #222222;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  font-family: small;
+  padding: 20px 30px;
   
 }
 
-.middle span a {
+.first-middle span a {
     color: #222222;
     text-decoration: none;
     text-align: center;
@@ -137,7 +159,7 @@ hr {
 
 }
 
-.middle span a:hover {
+.first-middle span a:hover {
   background-color: #F2F2F2;
   color:#222222;
   opacity: 50%;
@@ -188,7 +210,7 @@ hr {
 }
 
 
-.top_designers {
+.top-designers {
   width: 1296px;
   height: 500px;
   background: #fafafa;
@@ -196,11 +218,18 @@ hr {
   padding: 32px 82px;
 }
 
-.top_designers h2 {
-  font-weight: 300;
+.top-designers h2 {
+  font-family: heavy;
   font-size: 32px;
   text-align: left;
   color: #222;
+}
+
+.top-designers h2 a {
+  float: right;
+  font-family: small;
+  font-size: 14px;
+  opacity: 30%;
 }
 
 .designers {
