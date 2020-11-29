@@ -50,7 +50,7 @@
   }
 
   .form_fill_head span a {
-      padding-left:30px;
+      padding: 30px;
   }
   
   .form_fill form {
@@ -80,6 +80,8 @@
     height: 60px;
     border-style: none none solid none;
 
+    
+
   }
   
   .form_fill form button {
@@ -88,9 +90,7 @@
     border-radius: 12px;
     background: #f28;
     margin-top: 50px;
-    font-weight: 900;
     font-size: 14px;
-    line-height: 22.4px;
     text-align: center;
     color: #fff;
   }
