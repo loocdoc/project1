@@ -1,0 +1,128 @@
+
+@font-face {
+    font-family: "small";
+    src: url("/resources/fonts/AvenirLTStd-Book.otf"); format:"opentype";
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("/resources/fonts/AvenirLTStd-Medium.otf"); format:"opentype";
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url("/resources/fonts/AvenirNextLTPro-Heavy.otf"); format:"opentype";
+}
+
+.form_main {
+    display: flex;
+    justify-content: start;
+
+}
+
+.form_fill {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  
+  .form_fill_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+    margin-top: 110px;
+    
+  }
+  
+  .form_fill_head h1 {
+    font-weight: 900;
+    font-size: 42px;
+    text-align: left;
+    color: #222;
+    font-family: heavy;
+  }
+  
+  .form_fill_head span {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #afafaf;
+  }
+
+  .form_fill_head span a {
+      padding-left:30px;
+  }
+  
+  .form_fill form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    width: 289px;
+    margin-left: 65px;
+    margin-bottom: 153px;
+  }
+  
+  .form_fill form label {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: #afafaf;
+  }
+  
+  .form_fill form input {
+    height: 60px;
+    border-style: none none solid none;
+    
+  }
+
+  select {
+    height: 60px;
+    border-style: none none solid none;
+
+  }
+  
+  .form_fill form button {
+    width: 289px;
+    height: 60px;
+    border-radius: 12px;
+    background: #f28;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .terms {
+      font-family: small;
+      margin-top: 69px;
+      font-size: 14px;
+  }
+
+  .slide {
+      display: flex;
+      height: 700px;
+      margin-top: 40px;
+      margin-left: 30px;
+      position: relative;
+     
+  }
+
+  .inside {
+      position: absolute;
+      width: 450px;
+      height: 450px;
+      top: 100px;
+      right: 170px;
+  }
+
+  .slide_text {
+      position: absolute;
+      top: 70%;
+      left: 25%;
+      font-family: heavy;
+      font-size: 30px;
+
+  }
